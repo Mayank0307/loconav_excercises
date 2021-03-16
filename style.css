@@ -1,186 +1,178 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 50px 150px;
-  }
-  
-  .dev {
-    width: 60%;
-    height: 100%;
-  }
-  
-  .outer {
-    display: flex;
-  }
-  
-  .heading {
-    text-transform: capitalize;
-    margin: 20px;
-    text-align: center;
-    font-size: 27px;
-    letter-spacing: 0.1px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-  }
-  
-  .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-  }
-  
-  .vehicle-track-image {
-    display: block;
-    margin-left: 135px;
-    width: 20%;
-    height: 20%;
-  }
-  
-  .vehicle-lock-image {
-    display: block;
-    margin-left: 116px;
-    width: 30%;
-    height: 20%;
-  }
-  
-  .live-alert-image {
-    display: block;
-    margin-left: 135px;
-    width: 20%;
-    height: 20%;
-  }
-  
-  .vehicle-health-image {
-    display: block;
-    margin-left: 116px;
-    width: 20%;
-    height: 20%;
-  }
-  
-  .headinternal {
-    text-align: center;
-    font-weight: 1000;
-    letter-spacing: 0.5px;
-  }
-  
-  .description {
-    text-align: center;
-    line-height: 20px;
-    font-size: 15px;
-    color: #A3A3A3;
-    font-family: 'Raleway';
-    letter-spacing: 0.5px;
-  }
-  
-  h4 {
-    font-family: 'Raleway';
-    font-weight: bold 800;
-    color: #323232;
-  }
-  
-  .formbox {
-    position: relative;
-    width: 80%;
-    height: 80%;
-    margin: 50px;
-    margin-left: 100px;
-    margin-top: 30px;
-    background-color: white;
-    border: 20px solid;
-  }
-  
-  .formint {
-    margin: 30px;
-    margin-top: 20px;
-  }
-  
-  .inputd {
-    padding: 12px;
-    width: 80%;
-    margin-bottom: 20px;
-    border-radius: 2px;
-    margin-left: 33px;
-    border: 2px solid #EFEFEF;
-    color: grey;
-    font-weight: bold;
-    letter-spacing: -0.5px;
-    font-family: 'Raleway';
-    font-size: 14px;
-  }
-  
-  .loginform {
-    top: 30px;
-    position: relative;
-    width: 30%;
-    height: 420px;
-    margin-left: 80px;
-    color: #fff;
-    background: #fff;
-    justify-content: center;
-  }
-  
-  .tagline {
-    margin-left: 33px;
-    font-family: 'Raleway';
-    margin-top: 40px
-  }
-  
-  .loginform::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient( white, grey, grey);
-    z-index: -2;
-    filter: blur(20px);
-  }
-  
-  label {
-    color: black;
-    font-size: 13px;
-    padding-bottom: 10px;
-    font-weight: bold;
-    font-family: 'Raleway';
-  }
-  
-  .btn {
-    padding: 10px;
-    width: 25%;
-    margin-right: 5px;
-    margin-top: 10px; 
-    font-family: 'Raleway';
-    border: 2px solid #EFEFEF;
-    background-color: white;
-    font-weight: bold;
-    color: grey !important;
-  }
-  
-  .startbtn {
-    background-color: rgb(30, 172, 178);
-    padding: 15px;
-    color: white!important;
-    width: 80%;
-    margin-left: 33px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-  }
-  
-  .callus {
-    margin-left: 93px;
-    font-weight: bold;
-    font-size: 12px;
-    color: grey;
-    margin-top: 25px;
-    font-family: 'Roboto';
-  }
+* {box-sizing: border-box;}
 
- .highlight {
-    color: #6399C7;
-  }
+body {margin: 50px 150px;}
+
+.dev {
+  width: 60%;
+  height: 100%;
+}
+
+.outer {
+  display: flex;
+}
+
+.heading {
+  text-transform: capitalize;
+  margin: 20px;
+  text-align: center;
+  font-size: 27px;
+  letter-spacing: 0.1px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.vehicle-track-image {
+  display: block;
+  margin-left: 135px;
+  width: 20%;
+  height: 20%;
+}
+
+.vehicle-lock-image {
+  display: block;
+  margin-left: 116px;
+  width: 30%;
+  height: 20%;
+}
+
+.live-alert-image {
+  display: block;
+  margin-left: 135px;
+  width: 20%;
+  height: 20%;
+}
+
+.vehicle-health-image {
+  display: block;
+  margin-left: 116px;
+  width: 20%;
+  height: 20%;
+}
+
+.headinternal {
+  text-align: center;
+  font-weight: 1000;
+  letter-spacing: 0.5px;
+}
+
+.description {
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+  color: #a3a3a3;
+  font-family: "Raleway";
+  letter-spacing: 0.5px;
+}
+
+h4 {
+  font-family: "Raleway";
+  font-weight: bold 800;
+  color: #323232;
+}
+
+.formbox {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  margin: 50px;
+  margin-left: 100px;
+  margin-top: 30px;
+  background-color: white;
+  border: 20px solid;
+}
+
+.inputd {
+  padding: 12px;
+  width: 80%;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  margin-left: 33px;
+  border: 2px solid #efefef;
+  color: grey;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  font-family: "Raleway";
+  font-size: 14px;
+}
+
+.loginform {
+  top: 30px;
+  position: relative;
+  width: 30%;
+  height: 420px;
+  margin-left: 80px;
+  ]color: #fff;
+  background: #fff;
+  justify-content: center;
+}
+
+.tagline {
+  margin-left: 33px;
+  font-family: "Raleway";
+  margin-top: 40px;
+}
+
+.loginform::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(white, grey, grey);
+  z-index: -2;
+  filter: blur(20px);
+}
+
+label {
+  color: black;
+  font-size: 13px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-family: "Raleway";
+}
+
+.btn {
+  padding: 10px;
+  width: 25%;
+  margin-right: 5px;
+  margin-top: 10px;
+  font-family: "Raleway";
+  border: 2px solid #efefef;
+  background-color: white;
+  font-weight: bold;
+  color: grey !important;
+}
+
+.startbtn {
+  background-color: rgb(30, 172, 178);
+  padding: 15px;
+  color: white !important;
+  width: 80%;
+  margin-left: 33px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.callus {
+  margin-left: 93px;
+  font-weight: bold;
+  font-size: 12px;
+  color: grey;
+  margin-top: 25px;
+  font-family: "Roboto";
+}
+
+.highlight {
+  color: #6399c7;
+}
