@@ -104,7 +104,7 @@ h4 {
   padding: 12px 32px 7px;
 }
 
-.loginform::before {
+.login-form::before {
   content: "";
   position: absolute;
   top: 0;
