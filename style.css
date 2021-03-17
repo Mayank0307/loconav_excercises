@@ -98,22 +98,11 @@ h4 {
   margin-left: 80px;
   background: #fff;
   justify-content: center;
+  box-shadow: 0 0 52px #c7bebe;
 }
 
 .tagline {
   padding: 12px 32px 7px;
-}
-
-.login-form::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(white, grey, grey);
-  z-index: -2;
-  filter: blur(20px);
 }
 
 label {
