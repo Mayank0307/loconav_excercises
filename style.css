@@ -2,7 +2,7 @@
 
 body {margin: 50px 150px;}
 
-.dev {
+.content {
   width: 60%;
   height: 100%;
 }
@@ -164,7 +164,7 @@ label {
   letter-spacing: 0.5px;
 }
 
-.callus {
+.call-us {
   margin-left: 93px;
   font-weight: bold;
   font-size: 12px;
